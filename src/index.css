@@ -1,92 +1,92 @@
 /* src/index.css */
 /* Styles for the body, including the background image */
 html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  /* Change this line to point to the correct path */
-  background-image: url('/finance7.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #1a202c; /* Default text color for light theme */
-  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Change this line to point to the correct path */
+  background-image: url('/finance7.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #1a202c; /* Default text color for light theme */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Base styles for the light theme (default) */
 body.dark {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 /* Universal text color for dashboard content */
 .dashboard-text {
-    color: #333; /* A very dark gray for light mode */
+  color: #333; /* A very dark gray for light mode */
 }
 
 .dark .dashboard-text {
-    color: #e0e0e0; /* A light gray for dark mode */
+  color: #e0e0e0; /* A light gray for dark mode */
 }
 
 /* Specific text styles for FinancialSummary.jsx */
 .summary-title {
-  font-size: 1.125rem; /* text-lg */
-  font-weight: 500;    /* font-medium */
-  color: #1f2937;      /* A dark gray for light mode */
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 500;    /* font-medium */
+  color: #1f2937;      /* A dark gray for light mode */
 }
 
 .dark .summary-title {
-  color: #d1d5db;      /* A light gray for dark mode */
+  color: #d1d5db;      /* A light gray for dark mode */
 }
 
 .income-amount {
-  font-size: 1.5rem;   /* text-2xl */
-  font-weight: 700;    /* font-bold */
-  color: #16a34a;      /* A dark green for light mode */
+  font-size: 1.5rem;   /* text-2xl */
+  font-weight: 700;    /* font-bold */
+  color: #16a34a;      /* A dark green for light mode */
 }
 
 .dark .income-amount {
-  color: #4ade80;      /* A lighter green for dark mode */
+  color: #4ade80;      /* A lighter green for dark mode */
 }
 
 .expense-amount {
-  font-size: 1.5rem;   /* text-2xl */
-  font-weight: 700;    /* font-bold */
-  color: #dc2626;      /* A dark red for light mode */
+  font-size: 1.5rem;   /* text-2xl */
+  font-weight: 700;    /* font-bold */
+  color: #dc2626;      /* A dark red for light mode */
 }
 
 .dark .expense-amount {
-  color: #f87171;      /* A lighter red for dark mode */
+  color: #f87171;      /* A lighter red for dark mode */
 }
 
 .balance-amount {
-  font-size: 1.5rem;   /* text-2xl */
-  font-weight: 700;    /* font-bold */
-  color: #2563eb;      /* A dark blue for light mode */
+  font-size: 1.5rem;   /* text-2xl */
+  font-weight: 700;    /* font-bold */
+  color: #2563eb;      /* A dark blue for light mode */
 }
 
 .dark .balance-amount {
-  color: #60a5fa;      /* A lighter blue for dark mode */
+  color: #60a5fa;      /* A lighter blue for dark mode */
 }
 
 /* Correctly styled inputs for dark mode */
 body.dark input,
 body.dark select {
-  background-color: #2d3748;
-  color: #e2e8f0;
+  background-color: #2d3748;
+  color: #e2e8f0;
 }
 
 /* New specific rules for the TransactionList component */
 .transaction-table {
-    color: #333;
+  color: #333;
 }
 
 .dark .transaction-table {
-    color: #e0e0e0;
+  color: #e0e0e0;
 }
 
 @tailwind base;
@@ -94,15 +94,15 @@ body.dark select {
 @tailwind utilities;
 
 .full-screen-container {
-  width: 100vw;
-  height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 body.dark .bg-white {
-  background-color: #1a202c;
-  color: #e0e0e0;
+  background-color: #1a202c;
+  color: #e0e0e0;
 }
 
 body.dark .border {
-  border-color: #4a5568;
+  border-color: #4a5568;
 }
