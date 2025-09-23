@@ -9,7 +9,7 @@ import { ThemeProvider } from "./ThemeContext.jsx"; // Import the ThemeProvider
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Finance-Tracker">
       {/* Wrap the app with both providers */}
       <AuthProvider>
         <ThemeProvider>
