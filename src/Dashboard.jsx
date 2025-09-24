@@ -4,7 +4,7 @@ import FinancialSummary from "./FinancialSummary";
 import MonthlyChart from "./MonthlyChart";
 import CategoryChart from "./CategoryChart";
 import TransactionForm from "./TransactionForm";
-import TransactionList from "./TransactionList";
+import TransactionList from "./Transactionlist";
 import { ThemeContext } from "./ThemeContext";
 import { signOut } from "firebase/auth";
 import { db, auth } from "./firebase";
